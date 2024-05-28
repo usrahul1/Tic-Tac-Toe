@@ -68,3 +68,34 @@ nav ul li{
 .bt{
     border-top: none;
 }
+
+.imgbox img{
+    width: 0;
+    transition: width 2s ease;
+}
+
+#reset{
+    margin-top: 10px;
+    padding:  4px 8px;
+    font-size: 14px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+
+    nav{
+        text-align: center;
+    }
+
+    .gameContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
